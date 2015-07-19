@@ -10,7 +10,7 @@ html, body {
 }
 
 #main-content {
-	padding-bottom: 150px;
+	padding-bottom: 150px;	/*padding for footer*/
 	display: block;
 }
 
@@ -36,7 +36,7 @@ header {
   display: inline-block;
   vertical-align: middle;
 }
-/*----------------- menu & content container -----------------------*/
+/*----------------- menu & content -----------------------*/
 aside {
  width: 200px;
  float: left;
