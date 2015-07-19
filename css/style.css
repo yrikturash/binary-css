@@ -1,0 +1,117 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+	min-height: 100%;
+	position: relative;
+}
+
+#main-content {
+	padding-bottom: 150px;
+	display: block;
+}
+
+/*-------------------- header ----------------------*/
+header {
+	width: 100%;
+
+  border: 1px solid red;
+}
+#logo {
+  width: 200px;
+  height: 150px;
+  background-image: url('../logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  display: inline-block;
+
+  border: 1px solid red;
+}
+
+#logo+span {
+  display: inline-block;
+  vertical-align: middle;
+}
+/*----------------- menu & content container -----------------------*/
+aside {
+ width: 200px;
+ float: left;
+ height: 100%
+}
+article {
+ margin-left: 220px; 
+}
+
+/*---------------- left menu -----------------*/
+ul.menu li {
+	border: 1px solid;
+}
+ul.menu {
+ list-style: none;
+ margin: 40px  0;
+ padding: 0; 
+}
+ul.menu li {
+ padding: 5px; 
+ font-size: 0.8em; 
+ font-weight: bold; 
+}
+ul.menu a, ul.menu span {
+ padding: 5px; /* Поля */
+}
+ul.menu li.active {
+ padding-left: 20px; /* Поле слева */
+ color: red;
+}
+ ul.menu li.current { 
+ background: #f9f2e2 url(images/menu-gradient.png) repeat-y; /* Градиент */
+}
+
+/*----------------------- content -----------------------------*/
+.item {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	margin: 10px;
+
+	border: 1px solid;
+}
+.item-wrapper {
+	  display: table;
+	  height: 100%;
+	  margin: 0 auto;
+}
+.item-content {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.items {
+	margin: 0 auto;
+  	display: table;
+}
+
+/*-------------- footer ----------------*/
+footer {
+  height: 150px;
+  width: 100%;
+  border: 1px solid;
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.copyright {
+  display: table;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.copyright>span {
+  display: table-cell;
+  vertical-align: middle;
+}
